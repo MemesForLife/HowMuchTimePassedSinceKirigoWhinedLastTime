@@ -5,7 +5,7 @@
         var target = document.querySelector(".well");
         var now = new Date(Date.now());
 
-        var days = now.getDay() - start.getDay();
+        var days = now.getDate() - start.getDate();
         days = (days >= 0) ? days : days + 30;
 
         var hours = now.getHours() - start.getHours();
