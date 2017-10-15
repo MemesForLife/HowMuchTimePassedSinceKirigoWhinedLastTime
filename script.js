@@ -1,5 +1,5 @@
 (function(){
-    var start = new Date(2017,9, 13, 1, 42);
+    var start = new Date(2017,9, 15, 22, 00);
 
     var timerHandler = function(){
         var target = document.querySelector(".well");
